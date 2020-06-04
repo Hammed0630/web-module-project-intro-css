@@ -1,18 +1,25 @@
-*{
-    box-sizing:border-box;
+@import url(https://fonts.google.com/specimen/Chelsea+Market)
+
+.button{
+    display:inline-block;
+    width:20%;
+    text-align:center;
+    background-color:#FF764E;
+    color:white;
+    padding:2% 0;
+    border-radius:10px;
+}
+.container{
+    display: inline-block;
+    padding-bottom:10%;
 
 }
-
-
-
-
-
-
-
-
-
-nav a{
-    color:black;
-    text-decoration:none;
-    letter-spacing:3px;
-    margin:0 4%;
+.icons{
+    display: inline-block;
+}
+.about{
+    background-color: tan;
+    display:inline-block;
+    text-align: center;
+    margin: 1% 10% ;
+}
